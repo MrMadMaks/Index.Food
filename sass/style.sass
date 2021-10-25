@@ -1,6 +1,8 @@
 $color-on-dark: #fff
 *
     box-sizing: border-box
+h2
+    margin: 0
 body
     font-family: Roboto, sans-serif
 .container
@@ -165,3 +167,198 @@ body
                 height: 49px
                 background: #FFFFFF
                 border-radius: 50px
+.delivery
+    margin-top: 110px
+    margin-bottom: 100px
+    &__title
+        font-weight: 500
+        font-size: 32px
+        line-height: 23px
+        color: #000000
+        margin-bottom: 47px
+    &__cards
+        display: flex
+        flex-wrap: wrap
+        margin: -15px
+    &__card
+        position: relative
+        width: 275px
+        height: 182px
+        margin: 15px
+        cursor: pointer
+        &-img
+            border-radius: 18px
+            object-fit: cover
+        &-icon
+            position: absolute
+            border-radius: 30px
+            padding: 5px 10px
+            top: 16px
+            left: 10px
+            &-bg1
+                background: #D0FD89
+            &-bg2
+                background: #AEBC41
+                color: #FFFFFF
+            &-bg3
+                background: #B86B78
+                color: #FFFFFF
+            &-bg4
+                background: #D68334
+                color: #FFFFFF
+            &-bg5
+                background: #CD6255
+                color: #FFFFFF
+            &-bg6
+                background: #FFFDBF
+            &-bg7
+                background: #F6FDC8
+            &-bg8
+                background: #FEF7FE
+.categories
+    padding: 40px 0 60px
+    background: #F6F6F6
+    &__title
+        font-weight: 500
+        font-size: 32px
+        line-height: 23px
+        color: #000000
+        margin-top: 0
+        margin-bottom: 50px
+    &__tabs
+        display: flex
+        margin-bottom: 60px
+        font-size: 20px
+        line-height: 23p
+        color: #49494F
+    &__tab
+        margin-right: 58px
+        cursor: pointer
+    &__cards
+        display: flex
+        margin-bottom: 62px
+    &__card
+        width: 270px
+        height: 471px
+        background: #FFFFFF
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1)
+        border-radius: 20px
+        overflow: hidden
+        margin-right: 37px
+        &:last-child
+            margin-right: 0
+        &-descr
+            padding: 21px 24px
+        &-title
+            font-weight: 500
+            font-size: 20px
+            line-height: 23px
+            color: #000000
+            margin-bottom: 13px
+        &-text
+            font-weight: 500
+            font-size: 14px
+            line-height: 23px
+            color: #B9B9BE
+            margin-bottom: 36px
+        &-price
+            display: flex
+            justify-content: space-between
+            &-for-weight
+                font-weight: 500
+                font-size: 23px
+                line-height: 23px
+                color: #4B4B51
+                & span
+                    display: block
+                    font-weight: 500
+                    font-size: 17px
+                    line-height: 20px
+                    color: #AAAAB1
+        &-btn-cart
+            border: 2px solid #F37321
+            box-sizing: border-box
+            border-radius: 33px
+            background-color: transparent
+            padding: 15px 25px
+            font-weight: 500
+            font-size: 16px
+            line-height: 19px
+            color: #F37321
+            cursor: pointer
+    &__btn
+        display: block
+        margin: 0 auto
+        border: 2px solid #F37321
+        box-sizing: border-box
+        border-radius: 33px
+        padding: 15px 105px
+        font-weight: 500
+        font-size: 16px
+        line-height: 19px
+        color: #F37321
+        cursor: pointer
+.active
+    color: #F37321
+.advantages
+    padding: 100px 0 200px 0
+    &__title
+        font-weight: 500
+        font-size: 32px
+        line-height: 23px
+        color: #000000
+        margin-bottom: 52px
+    &__cards
+        display: flex
+    &__card
+        width: 270px
+        min-height: 296px
+        background: #FFFFFF
+        border: 1px solid #E9E9E9
+        box-sizing: border-box
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1)
+        border-radius: 18px
+        padding: 30px 25px 25px
+        margin-right: 37px
+        &:last-child
+            margin-right: 0
+        &-icon
+            display: block
+            margin: 0 auto
+            margin-bottom: 34px
+        &-title
+            font-weight: 500
+            font-size: 16px
+            line-height: 23px
+            text-align: center
+            color: #000000
+            width: 158px
+            margin: 0 auto 35px
+        &-discr
+            font-size: 14px
+            line-height: 22px
+            text-align: center
+            color: #49494F
+.footer
+    padding: 40px 0
+    background: #F6F6F6
+    &__flex
+        display: flex
+    &__left
+        display: flex
+    &__list
+        display: flex
+        list-style: none
+        justify-content: space-between
+        & a
+            margin-right: 50px
+            &:last-child
+                margin-right: 0
+    &__right
+        margin-left: auto
+        display: flex
+        align-items: center
+        & a
+            margin-left: 20px
+            &:first-child
+                margin-left: 0
